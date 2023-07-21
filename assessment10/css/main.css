@@ -1,0 +1,102 @@
+ 
+ * {
+  font-family: arial;
+}
+h1{
+  color: rgb(184, 183, 183);
+}
+
+
+
+
+.btn-primary {
+  margin-top: 30px;
+  background-color: rgb(17, 103, 196);
+  color: white;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(17, 103, 196);
+  border-image: initial;
+}
+.btn-primary:hover {
+  background-color: rgb(10, 63, 119);
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(10, 63, 119);
+  border-image: initial;
+}
+
+.alert-error {
+  background-color: rgb(255, 178, 178);
+  color: rgb(109, 0, 0);
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(109, 0, 0);
+  border-image: initial;
+}
+.alert {
+  width: 75%;
+  font-size: 18px;
+  text-align: center;
+  padding: 5px;
+  margin: 10px;
+  border-radius: 5px;
+  display: none;
+}
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.column {
+ 
+  display: flex;
+  flex-direction: column;
+ 
+}
+div {
+  display: block;
+}
+.webwell {
+  background-image: linear-gradient(rgb(238, 238, 238), rgb(255, 255, 255));
+  margin: 10px 0px;
+  padding: 20px;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+}
+h2 {
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+.webwell h2 {
+  width: 30%;
+  color: rgb(51, 51, 51);
+}
+.webwell a {
+  text-decoration: none;
+}
+.btn-primary {
+  background-color: rgb(17, 103, 196);
+  color: white;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(17, 103, 196);
+  border-image: initial;
+}
+.btn {
+  font-size: 15px;
+  cursor: pointer;
+  max-width: fit-content;
+  padding: 10px 15px;
+  margin: 15px 5px;
+  border-radius: 5px;
+}
